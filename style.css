@@ -1,8 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }  
 li {
     list-style: none;
-
 }
-
+a {
+    text-decoration: none;
+    color: black;
+}
 .jwks-header-main {
     height: 5.5rem;
     background-color: rgb(255, 255, 255);
@@ -22,7 +29,8 @@ li {
 }
 .jwks-header-right {
     width: 33.33%;
-    padding-top: 18.5px;
+    padding-top: 33.5px;
+    height: 5.5rem;
     ul {
         display: flex;
         padding-left: 300px;
@@ -33,4 +41,27 @@ li {
         height: 1.3rem;
     }
 }
+.jwks-navbar {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    height: 3rem;
+    
+    li {
+        display: flex;
+        justify-content: center; 
+        align-items: center;    
+        width: 14rem;
+        height: 3rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 40%;
+        
+    }
+    ul {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+}
+
 
