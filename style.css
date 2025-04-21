@@ -1,0 +1,36 @@
+li {
+    list-style: none;
+
+}
+
+.jwks-header-main {
+    height: 5.5rem;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+.jwks-header-logo {
+    width: 33.33%;
+    height: 5.5rem;
+    display: flex;
+    justify-content: center; /* canh giữa ngang */
+    align-items: center;     /* canh giữa dọc */
+}
+
+.jwks-header-left {
+    width: 33.33%;
+    height: 5.5rem
+}
+.jwks-header-right {
+    width: 33.33%;
+    padding-top: 18.5px;
+    ul {
+        display: flex;
+        padding-left: 300px;
+        gap: 30px;
+        justify-content: center;
+    }
+    img {
+        height: 1.3rem;
+    }
+}
+
