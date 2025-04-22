@@ -19,8 +19,8 @@ a {
     width: 33.33%;
     height: 5.5rem;
     display: flex;
-    justify-content: center; /* canh giữa ngang */
-    align-items: center;     /* canh giữa dọc */
+    justify-content: center; 
+    align-items: center;     
     
 }
 
